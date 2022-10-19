@@ -592,7 +592,7 @@ a:focus {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	min-height: 100vh;
+	min-height: 63vh;
 	-ms-align-items: center;
 	align-items: center;
 }
