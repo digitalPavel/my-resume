@@ -1,37 +1,4 @@
 @charset "utf-8";
-/*
-/*	Copyright (c) 2021 Frenify
-/*	Author: Frenify
-/*	This file is made for CURRENT TEMPLATE
-/*
-
-
-	List of CSS codes:
-
-	01) Base
-	02) Site Structure
-	03) Site Right
-	04) Right Hidden Navigation
-	05) Home Section
-	06) About Section
-	07) CV Button
-	08) Tabs Shortcode
-	09) Boxed List
-	10) Progress Bar
-	11) Magic Cursor
-	12) Portfolio Section
-	13) Services List
-	14) Partners
-	15) Testimonials
-	16) Blog List
-	17) Pulse animation
-	18) Contact
-	19) Contact Information
-	20) Footer
-	21) Intro
-	22) Responsive
-	23) Light Version
-
 
 /*------------------------------------------------------------------*/
 /*	01) Base
@@ -690,7 +657,7 @@ a:focus {
 	text-transform: uppercase;
 }
 /*------------------------------------------------------------------*/
-/*	07) CV Button
+/*	07) GitHub Button
 /*------------------------------------------------------------------*/
 .resumo_fn_cv_btn{
 	display: -webkit-flex;
@@ -1153,31 +1120,7 @@ a:focus {
 	background-color: rgba(255,255,255,.5);
 	transition: all .3s ease;
 }
-/*------------------------------------------------------------------*/
-/*	12) Portfolio Section
-/*------------------------------------------------------------------*/
 
-
-
-/*------------------------------------------------------------------*/
-/*	13) Services List
-/*------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------*/
-/*	14) Partners
-/*------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------*/
-/*	15) Testimonials
-/*------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------*/
-/*	16) Blog List
-/*------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------*/
-/*	17) Pulse animation
-/*------------------------------------------------------------------*/
 .fn__pulse{
 	width: 120px;
     display: flex;
@@ -1216,7 +1159,7 @@ a:focus {
 .be_animated.done{visibility: visible;display: block;}
 @-webkit-keyframes fadeInTop{0%{opacity:0;-webkit-transform:translate3d(0,10%,0);transform:translate3d(0,10%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInTop{0%{opacity:0;-webkit-transform:translate3d(0,10%,0);transform:translate3d(0,10%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}.fadeInTop{-webkit-animation-name:fadeInTop;animation-name:fadeInTop}
 /*------------------------------------------------------------------*/
-/*	18) Contact
+/*	12) Contact
 /*------------------------------------------------------------------*/
 #contact{
 	padding: 150px 0 200px;
@@ -1341,7 +1284,7 @@ a:focus {
 	color: #dd3936;
 }
 /*------------------------------------------------------------------*/
-/*	19) Contact Information
+/*	13) Contact Information
 /*------------------------------------------------------------------*/
 .resumo_fn_contact_info{
 	padding: 95px 0 0;
@@ -1381,7 +1324,7 @@ a:focus {
 	border-bottom-color: rgba(255,255,255,.4);
 }
 /*------------------------------------------------------------------*/
-/*	20) Footer
+/*	14) Footer
 /*------------------------------------------------------------------*/
 #footer{
 	width: 100%;
@@ -1485,7 +1428,7 @@ a:focus {
 	margin-top: 4px;
 }
 /*------------------------------------------------------------------*/
-/*	21) Intro
+/*	15) Intro
 /*------------------------------------------------------------------*/
 .resumo_fn_intro{
 	padding: 0 50px 50px;
@@ -1631,7 +1574,7 @@ a:focus {
 }
 
 /*------------------------------------------------------------------*/
-/*	22) Responsive
+/*	16) Responsive
 /*------------------------------------------------------------------*/
 @media(max-width: 1400px){
 	.resumo_fn_about_info{
@@ -1789,7 +1732,7 @@ a:focus {
 @media(max-width: 480px){.container{padding: 0 10px;}.container.noright{padding-right: 10px;}}
 
 /*------------------------------------------------------------------*/
-/*	23) Light Version
+/*	17) Light Version
 /*------------------------------------------------------------------*/
 body.light{background-color: #fff;color: #777;}
 body.light h1,
