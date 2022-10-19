@@ -1,10 +1,3 @@
-/*
- * Copyright (c) 2021 Frenify
- * Author: Frenify
- * This file is made for CURRENT TEMPLATE
-*/
-
-
 (function($){
   "use strict";
   
