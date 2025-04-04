@@ -237,7 +237,7 @@ a:focus {
 .resumo_fn_right .right_bottom a .text{
 	overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: normal;
     display: block;
 }
 .resumo_fn_right .right_bottom .circle{
